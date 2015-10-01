@@ -1,5 +1,7 @@
 module SAU
   class Regions
+    attr_reader :regions
+
     def initialize(regions)
       @regions = regions
     end
