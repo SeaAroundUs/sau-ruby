@@ -1,5 +1,5 @@
 ## SeaAroundUs API Wrapper
-Node.js wrapper for the [Sea Around Us API](https://github.com/SeaAroundUs/sau-web-mt).
+Ruby wrapper for the [Sea Around Us API](https://github.com/SeaAroundUs/sau-web-mt).
 
 
 ### Installation
