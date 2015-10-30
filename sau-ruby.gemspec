@@ -12,4 +12,5 @@ Gem::Specification.new do |gem|
   gem.license = 'SEE LICENSE IN LICENSE'
   gem.required_ruby_version = '~> 2.1'
   gem.files = Dir[ 'README.md', 'LICENSE', '{lib,spec}/**/*' ]
+  gem.homepage = 'https://github.com/seaaroundus/sau-ruby'
 end
