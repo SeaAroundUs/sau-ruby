@@ -21,7 +21,7 @@ module SAU
     end
 
     def call_api(url)
-      response = RestClient.get(BASE_URL + url)
+      response = RestClient.get(BASE_URL + url, :'X-Request-Source' => 'ruby')
       raise 'Error: ' + response.to_s unless response.code == 200
       JSON.parse(response.to_s, symbolize_names: true)[:data]
     end
