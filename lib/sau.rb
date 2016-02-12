@@ -1,5 +1,4 @@
-require 'bundler/setup'
-Bundler.require(:default)
+require 'rest-client'
 require_relative 'sau/regions'
 require_relative 'sau/region'
 
