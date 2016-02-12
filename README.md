@@ -19,7 +19,7 @@ $ gem install sau-ruby
 ### Example usage
 ```ruby
 # include the helper library
-require 'sau-ruby'
+require 'sau'
 
 # get list of EEZs
 eezs = SAU.get_regions('eez')
